@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0473C5762A816565000FC95D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473C5752A816565000FC95D /* AppDelegate.swift */; };
+		0473C5782A816565000FC95D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473C5772A816565000FC95D /* SceneDelegate.swift */; };
+		0473C57A2A816565000FC95D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473C5792A816565000FC95D /* ViewController.swift */; };
+		0473C57D2A816565000FC95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0473C57B2A816565000FC95D /* Main.storyboard */; };
+		0473C57F2A81656E000FC95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0473C57E2A81656E000FC95D /* Assets.xcassets */; };
+		0473C5822A81656E000FC95D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0473C5802A81656E000FC95D /* LaunchScreen.storyboard */; };
+		0473C5E82A8793E0000FC95D /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473C5E72A8793E0000FC95D /* Kategoriler.swift */; };
+		0473C5EE2A87AD6D000FC95D /* KategoriCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473C5EC2A87AD6D000FC95D /* KategoriCollectionViewCell.swift */; };
+		0473C5EF2A87AD6D000FC95D /* KategoriCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0473C5ED2A87AD6D000FC95D /* KategoriCollectionViewCell.xib */; };
+		047B6B742A90C2A6008D7D40 /* Ilanlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B6B732A90C2A6008D7D40 /* Ilanlar.swift */; };
+		047B6B772A90C5AC008D7D40 /* IlanlarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B6B752A90C5AC008D7D40 /* IlanlarCollectionViewCell.swift */; };
+		047B6B782A90C5AC008D7D40 /* IlanlarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047B6B762A90C5AC008D7D40 /* IlanlarCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0473C5722A816565000FC95D /* LetgoHomePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetgoHomePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0473C5752A816565000FC95D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0473C5772A816565000FC95D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0473C5792A816565000FC95D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0473C57C2A816565000FC95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0473C57E2A81656E000FC95D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0473C5812A81656E000FC95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0473C5832A81656E000FC95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0473C5E72A8793E0000FC95D /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		0473C5EC2A87AD6D000FC95D /* KategoriCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriCollectionViewCell.swift; sourceTree = "<group>"; };
+		0473C5ED2A87AD6D000FC95D /* KategoriCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KategoriCollectionViewCell.xib; sourceTree = "<group>"; };
+		047B6B732A90C2A6008D7D40 /* Ilanlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ilanlar.swift; sourceTree = "<group>"; };
+		047B6B752A90C5AC008D7D40 /* IlanlarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanlarCollectionViewCell.swift; sourceTree = "<group>"; };
+		047B6B762A90C5AC008D7D40 /* IlanlarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IlanlarCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0473C56F2A816565000FC95D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0473C5692A816565000FC95D = {
+			isa = PBXGroup;
+			children = (
+				0473C5742A816565000FC95D /* LetgoHomePage */,
+				0473C5732A816565000FC95D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0473C5732A816565000FC95D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0473C5722A816565000FC95D /* LetgoHomePage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0473C5742A816565000FC95D /* LetgoHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				0473C5EA2A87AD42000FC95D /* view */,
+				0473C5E22A878D70000FC95D /* data */,
+				0473C5752A816565000FC95D /* AppDelegate.swift */,
+				0473C5772A816565000FC95D /* SceneDelegate.swift */,
+				0473C5792A816565000FC95D /* ViewController.swift */,
+				0473C57B2A816565000FC95D /* Main.storyboard */,
+				0473C57E2A81656E000FC95D /* Assets.xcassets */,
+				0473C5802A81656E000FC95D /* LaunchScreen.storyboard */,
+				0473C5832A81656E000FC95D /* Info.plist */,
+			);
+			path = LetgoHomePage;
+			sourceTree = "<group>";
+		};
+		0473C5E22A878D70000FC95D /* data */ = {
+			isa = PBXGroup;
+			children = (
+				0473C5E92A879493000FC95D /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		0473C5E92A879493000FC95D /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				0473C5E72A8793E0000FC95D /* Kategoriler.swift */,
+				047B6B732A90C2A6008D7D40 /* Ilanlar.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		0473C5EA2A87AD42000FC95D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0473C5EB2A87AD49000FC95D /* cell */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0473C5EB2A87AD49000FC95D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0473C5EC2A87AD6D000FC95D /* KategoriCollectionViewCell.swift */,
+				0473C5ED2A87AD6D000FC95D /* KategoriCollectionViewCell.xib */,
+				047B6B752A90C5AC008D7D40 /* IlanlarCollectionViewCell.swift */,
+				047B6B762A90C5AC008D7D40 /* IlanlarCollectionViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0473C5712A816565000FC95D /* LetgoHomePage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0473C5862A81656E000FC95D /* Build configuration list for PBXNativeTarget "LetgoHomePage" */;
+			buildPhases = (
+				0473C56E2A816565000FC95D /* Sources */,
+				0473C56F2A816565000FC95D /* Frameworks */,
+				0473C5702A816565000FC95D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetgoHomePage;
+			productName = LetgoHomePage;
+			productReference = 0473C5722A816565000FC95D /* LetgoHomePage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0473C56A2A816565000FC95D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0473C5712A816565000FC95D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0473C56D2A816565000FC95D /* Build configuration list for PBXProject "LetgoHomePage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0473C5692A816565000FC95D;
+			productRefGroup = 0473C5732A816565000FC95D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0473C5712A816565000FC95D /* LetgoHomePage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0473C5702A816565000FC95D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0473C5822A81656E000FC95D /* LaunchScreen.storyboard in Resources */,
+				047B6B782A90C5AC008D7D40 /* IlanlarCollectionViewCell.xib in Resources */,
+				0473C5EF2A87AD6D000FC95D /* KategoriCollectionViewCell.xib in Resources */,
+				0473C57F2A81656E000FC95D /* Assets.xcassets in Resources */,
+				0473C57D2A816565000FC95D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0473C56E2A816565000FC95D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0473C57A2A816565000FC95D /* ViewController.swift in Sources */,
+				0473C5E82A8793E0000FC95D /* Kategoriler.swift in Sources */,
+				0473C5762A816565000FC95D /* AppDelegate.swift in Sources */,
+				047B6B772A90C5AC008D7D40 /* IlanlarCollectionViewCell.swift in Sources */,
+				047B6B742A90C2A6008D7D40 /* Ilanlar.swift in Sources */,
+				0473C5EE2A87AD6D000FC95D /* KategoriCollectionViewCell.swift in Sources */,
+				0473C5782A816565000FC95D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0473C57B2A816565000FC95D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0473C57C2A816565000FC95D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0473C5802A81656E000FC95D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0473C5812A81656E000FC95D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0473C5842A81656E000FC95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0473C5852A81656E000FC95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0473C5872A81656E000FC95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetgoHomePage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edasazak.LetgoHomePage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0473C5882A81656E000FC95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetgoHomePage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edasazak.LetgoHomePage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0473C56D2A816565000FC95D /* Build configuration list for PBXProject "LetgoHomePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0473C5842A81656E000FC95D /* Debug */,
+				0473C5852A81656E000FC95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0473C5862A81656E000FC95D /* Build configuration list for PBXNativeTarget "LetgoHomePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0473C5872A81656E000FC95D /* Debug */,
+				0473C5882A81656E000FC95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0473C56A2A816565000FC95D /* Project object */;
+}
